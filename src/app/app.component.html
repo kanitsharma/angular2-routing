@@ -1,3 +1,14 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container">
+  <div class="heading">
+    <h1>Home</h1>
+  </div>
+  <div class="containerrow">
+    <div class="menu" >
+        <a routerLink="/machine1"> Machine1  </a>
+        <a routerLink="/machine2"> Machine2  </a>
+        <a routerLink="/machine3"> Machine3  </a>
+        <a routerLink="/machine4"> Machine4  </a>
+    </div>
+    <router-outlet></router-outlet>
+  </div>
+</div>
